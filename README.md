@@ -19,7 +19,7 @@ Follow these steps to set up the project:
 
 ```bash
 git clone git@github.com:MaskiCoding/Spotify-Shuffle.git
-cd spotify-shuffle
+cd Spotify-Shuffle
 ```
 
 ### Step 2: Create a Virtual Environment
@@ -67,6 +67,24 @@ cd src
 python main.py
 ```
 
+## Creating an Executable File
+
+To create an executable file from the Python script, follow these steps:
+
+1. **Install PyInstaller**:
+    ```bash
+    pip install pyinstaller
+    ```
+
+2. **Create the executable**:
+    ```bash
+    pyinstaller --onefile src/main.py
+    ```
+
+3. **Find the executable**: The executable file will be located in the `dist` directory.
+
+This will generate an executable file in the `dist` directory, which you can distribute and run on other machines without requiring a Python interpreter.
+
 ## Usage
 
 After running the program, follow the prompts to shuffle your playlists. Enjoy discovering your music in a new way!
@@ -86,4 +104,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## Contact
 
 For any questions or feedback, please reach out to [MaximilianLin@vivaldi.net](mailto:MaximilianLin@vivaldi.net).
-

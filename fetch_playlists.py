@@ -7,9 +7,9 @@ def fetch_playlists():
     # Yoink user credentials from the .env file
     load_dotenv()
 
-    client_id = os.getenv("SPOTIPY_CLIENT_ID")
-    client_secret = os.getenv("SPOTIPY_CLIENT_SECRET")
-    redirect_uri = os.getenv("SPOTIPY_REDIRECT_URI")
+    client_id = os.getenv("CLIENT_ID")
+    client_secret = os.getenv("CLIENT_SECRET")
+    redirect_uri = os.getenv("REDIRECT_URI")
 
     scope = "playlist-modify-public playlist-modify-private"
 

@@ -66,6 +66,23 @@ To start the application, navigate to the folder containing the Python files and
 cd src 
 python main.py
 ```
+## Creating an Executable File
+
+To create an executable file from the Python script, follow these steps:
+
+1. **Install PyInstaller**:
+   ```bash
+   pip install pyinstaller
+   ```
+
+2. **Create the executable**:
+   ```bash
+   pyinstaller --onefile src/main.py
+   ```
+
+3. **Find the executable**: The executable file will be located in the `dist` directory.
+
+This will generate an executable file in the `dist` directory, which you can distribute and run on other machines without requiring a Python interpreter.
 
 ## Creating an Executable File
 

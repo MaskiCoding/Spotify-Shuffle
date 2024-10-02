@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ### Step 4: Set Up the `.env` File
 
-Create a `.env` file in the root directory of the project and add the following environment variables:
+Fill the `.env` file located the root directory of the project and add the following environment variables:
 
 ```plaintext
 CLIENT_ID="your_client_id_here"

@@ -2,3 +2,5 @@
 build/
 dist/
 venv/
+.venv/
+main.spec

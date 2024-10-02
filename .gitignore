@@ -70,3 +70,4 @@ cython_debug/
 
 # Do not ignore the icon file
 !assets/random.ico
+*.env

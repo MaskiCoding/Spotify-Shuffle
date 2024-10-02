@@ -101,7 +101,3 @@ If you encounter any issues:
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-## Contact
-
-For any questions or feedback, please reach out to [MaximilianLin@vivaldi.net](mailto:MaximilianLin@vivaldi.net).
-

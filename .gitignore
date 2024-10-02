@@ -1,30 +1,35 @@
+# Ignore Python bytecode files
+*.py[cod]
+__pycache__/
+
+# Ignore test files
 *.spec
 
-# Virtual environment
+# Ignore virtual environments
 venv/
 .venv/
 
-# pytype static type analyzer
+# Ignore pytype static type analyzer
 .pytype/
 
-# Cython debug symbols
+# Ignore Cython debug symbols
 cython_debug/
 
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
-
-# Other ignore rules...
+# Ignore build directories
 build/
 dist/
-!dist/Randomizer/Randomizer.exe
+
 # Ignore all .exe files except Randomizer.exe
 *.exe
+!dist/Randomizer/Randomizer.exe
 !Randomizer.exe
 
 # Do not ignore the icon file
 !assets/random.ico
+
+# Ignore environment variables files
 *.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/

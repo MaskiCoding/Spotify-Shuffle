@@ -2,7 +2,7 @@
 
 ## Overview
 
-Spotify Shuffle is a Python application that allows you to easily shuffle your Spotify playlists, enhancing your listening experience since Spotify shuffle function sucks.
+Spotify Shuffle is a Python application that allows you to easily shuffle your Spotify playlists, enhancing your listening experience.
 
 ## Prerequisites
 
@@ -60,9 +60,10 @@ REDIRECT_URI="http://localhost:8888/callback"
 
 ### Step 6: Run the Program
 
-To start the application, run the main script:
+To start the application, navigate to the folder containing the Python files and run the main script:
 
 ```bash
+cd src 
 python main.py
 ```
 
@@ -85,3 +86,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## Contact
 
 For any questions or feedback, please reach out to [MaximilianLin@vivaldi.net](mailto:MaximilianLin@vivaldi.net).
+

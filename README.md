@@ -18,7 +18,7 @@ Follow these steps to set up the project:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/spotify-shuffle.git
+git clone git@github.com:MaskiCoding/Spotify-Shuffle.git
 cd spotify-shuffle
 ```
 
